@@ -22,6 +22,8 @@ code{font-weight:normal; font-style:normal; font-family:Helvetica, sans-serif;}
 .fl_left{float:left;}
 .fl_right{float:right;}
 
+.quote{font-style: italic;}
+
 img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
 .imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
