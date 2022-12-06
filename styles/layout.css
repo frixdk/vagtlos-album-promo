@@ -8,6 +8,10 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{margin:0; padding:0; font-size:16px; font-family:Helvetica, sans-serif; color:#78d2bf; background-color:#382727}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
@@ -95,26 +99,26 @@ blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
 
 #container #content{float:left; width:630px; line-height:1.6em;}
 
-#container #content #latest{}
-#container #content #latest ul{margin:0; padding:0; list-style:none;}
-#container #content #latest ul li{display:block; width:100%; margin-bottom:30px;}
-#container #content #latest ul li.last{margin-bottom:0;}
-#container #content #latest ul li article{}
-#container #content #latest ul li article figure{}
-#container #content #latest ul li article figure img{
+#container #content {}
+#container #content ul{margin:0; padding:0; list-style:none;}
+#container #content ul li{display:block; width:100%; margin-bottom:30px;}
+#container #content ul li.last{margin-bottom:0;}
+#container #content ul li article{}
+#container #content ul li article figure{}
+#container #content ul li article figure img{
 float:left;
 width:180px;
 //max-height:150px;
 margin:2px;
 padding:4px;
 border:1px solid #666666;}
-#container #content #latest ul li article.live-images figure img{
+#container #content ul li article.live-images figure img{
 width: 500px;
 }
 
-#container #content #latest ul li article figure figcaption{display:block; float:right; width:410px;}
-#container #content #latest ul li article figure h2{font-size:14px;}
-#container #content #latest ul li article figure footer{}
+#container #content ul li article figure figcaption{display:block; float:right; width:410px;}
+#container #content ul li article figure h2{font-size:14px;}
+#container #content ul li article figure footer{}
 
 /* ------Right Column-----*/
 
